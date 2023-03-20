@@ -1,0 +1,70 @@
+.services{
+    padding:  0 2rem 0 2rem;
+    display: flex;
+    height: 85vh;
+    margin-bottom: 8 rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.awesome>:nth-child(1){
+    color:var(--orange);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    color: var(--gray);
+    font-size: 16px;
+    margin-top: 10px;
+    
+
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.cards{
+    position: relative;
+    
+   
+}
+.cards>*{
+    position: absolute;
+}
+
+.s-blur1{
+    top:13rem;
+    left:-18rem;
+
+}
+
+.s-blur2{
+    top:8rem;
+    left:14rem;
+
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 17rem;
+    }
+    .cards > * {
+      position: static;
+    }
+  }
